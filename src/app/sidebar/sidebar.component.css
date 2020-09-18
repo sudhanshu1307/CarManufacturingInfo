@@ -1,0 +1,18 @@
+mat-card {
+    margin: 10px;
+    transition: transform .2s;
+}
+
+mat-card:hover {
+    -ms-transform: scale(1.1); /* IE 9 */
+    -webkit-transform: scale(1.1); /* Safari 3-8 */
+    transform: scale(1.1); 
+}
+
+img {
+    width: 50%;
+}
+
+a {
+    color: black;
+}
