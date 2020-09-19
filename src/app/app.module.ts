@@ -13,6 +13,7 @@ import { HyundaiCarsComponent } from './car-info/hyundai-cars/hyundai-cars.compo
 import { HondaCarsComponent } from './car-info/honda-cars/honda-cars.component';
 import { RenaultCarsComponent } from './car-info/renault-cars/renault-cars.component';
 import { MarutiCarsComponent } from './car-info/maruti-cars/maruti-cars.component';
+import { MahindraCarsComponent } from './car-info/mahindra-cars/mahindra-cars.component';
 
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MatCardModule } from '@angular/material/card';
@@ -33,7 +34,8 @@ import { MatGridListModule } from '@angular/material/grid-list';
     HyundaiCarsComponent,
     HondaCarsComponent,
     RenaultCarsComponent,
-    MarutiCarsComponent
+    MarutiCarsComponent,
+    MahindraCarsComponent
   ],
   imports: [
     BrowserModule,

@@ -5,6 +5,7 @@ import { MahindraCarsComponent } from './car-info/mahindra-cars/mahindra-cars.co
 import { MarutiCarsComponent } from './car-info/maruti-cars/maruti-cars.component';
 import { RenaultCarsComponent } from './car-info/renault-cars/renault-cars.component';
 import { TataCarsComponent } from './car-info/tata-cars/tata-cars.component';
+import { ToyotaCarsComponent } from './car-info/toyota-cars/toyota-cars.component';
 
 export const appRoutes: Routes = [
     { path: 'honda', component: HondaCarsComponent },
@@ -13,4 +14,5 @@ export const appRoutes: Routes = [
     { path: 'mahindra', component: MahindraCarsComponent },
     { path: 'renault', component: RenaultCarsComponent },
     { path: 'tata', component: TataCarsComponent },
+    { path: 'toyota', component: ToyotaCarsComponent },
 ]
